@@ -56,6 +56,11 @@ p{
     text-align: center;
     padding-top:15px;
 }
+.select-option:hover{
+    background-color:black;
+    color:white;
+    transition: 0.4s;
+}
 .select-ul{
     width:100%;
     text-align: center;
@@ -73,6 +78,7 @@ p{
 }
 .show-option{
     display:block;
+    transition: 1s;
 }
 
 .main-text{

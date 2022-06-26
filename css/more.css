@@ -56,6 +56,10 @@ p{
     text-align: center;
     padding-top:15px;
 }
+.select-option:hover{
+    background-color:black;
+    color:white;
+}
 .select-ul{
     width:100%;
     text-align: center;
