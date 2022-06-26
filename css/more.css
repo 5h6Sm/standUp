@@ -42,7 +42,10 @@ p{
     width:70%;
     background-color: #555;
 }
-
+.bx-search{
+    font-size: 2rem;
+    margin-right:1.2rem;
+}
 .select,.plus{
     background-color: yellowgreen;
     width:13%;
