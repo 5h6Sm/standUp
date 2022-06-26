@@ -42,6 +42,12 @@ p{
     width:70%;
     background-color: #555;
 }
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
 .bx-search{
     font-size: 2rem;
     margin-right:1.2rem;
@@ -161,16 +167,21 @@ margin:0;
 }
 
 .time-line{
-    height:1000px ;
+    height:1800px ;
     background-color: coral;
     margin : 20px;
+    background: url('https://i.ibb.co/8rwCRG4/background.png');
+    background-repeat: no-repeat;
 }
 
-#year-1900{
+.year-1900, .year-2000{
     margin-left:3%;
     font-size: 4rem;
 }
-#year-1960{
+.year-2000{
+    margin-top:40rem;
+}
+.year-1960{
     margin-top:30rem;
     margin-right:3%;
     text-align: right;
