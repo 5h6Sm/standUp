@@ -83,16 +83,7 @@ p{
     margin:0;
     margin-top: 0.8rem; 
 }
-.tag{
-    width:4%;
-    height:1rem;
-    background-color: aliceblue;
-    font-size: 0.6rem;
-    text-align: center;
-    border-radius: 1rem;
-    margin-left: 0.5rem;
 
-}
 .title-text{
     margin-left:0.8rem ;
     font-size: 2.5rem;
@@ -106,33 +97,39 @@ p{
     margin:0;
     margin-top: 0.8rem; 
 }
-.title-text-second{
-    font-size: 1.5rem;
-}
-.content{
-    margin-left:0.8rem ;
+.content-coll{
+    width:100%;
+    justify-content: center;
     display: flex;
-    margin-bottom: 5rem;
+    flex-direction: column;
     align-items: center;
 
 }
-.expo, .content-title{
-    margin-top: 1rem;
-    font-weight: bold;
-    font-size: 1.3rem;
+.innerContent{
+    width:80%;
+    height:8.5rem;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: ;
 }
-.expo-sen, .content-text{
-    margin-top: 0.2rem;
+.innerContent > img{
+    width:4%;
+    margin-left:1rem;
 }
-.content-img{
-    width:100%;
-    height:100%;
-    margin: 2rem 4rem 0 4rem;
+.innerContent-text{
+    font-size: 2rem;
+    margin-left:1rem;
+    width:30%;
+    border: black solid 1px;
+    height:3rem;
 }
-.content-img > img{
-    width:100%;
-    height:100%;
-
+.innerContent-text-ex{
+    margin-left:2rem;
+    width:50%;
+    border: black solid 1px;
+    height:2.2rem;
+    padding-top:0.7rem;
 }
 footer{
     width:100%;
