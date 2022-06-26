@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #81bef7;
+    margin:0;
+    padding: 0;
+    justify-content: center;;
+}
+
+p{
+    margin:0;
+}
+.wrap-all{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:100%;
+}
+.wrap-all > div{
+    width:100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.wrap-nav{
+    margin-top: 60px;
+    display: flex;
+    width:100%;
+    justify-content: space-evenly;
+    position: relative;
+    z-index: 999999999999999999999;
+}
+.wrap-nav > div{
+    height:50px;
+    border-radius: 20px;
+}
+
+.wrap-nav > .search-bar{
+    width:70%;
+    background-color: #555;
+}
+
+.select,.plus{
+    background-color: yellowgreen;
+    width:13%;
+}
+.select{
+    justify-content: center;
+}
+.touch,.more-word{
+    width:100%;
+    height:30px;
+    text-align: center;
+    padding-top:15px;
+}
+.select-ul{
+    width:100%;
+    text-align: center;
+    margin:0;
+    padding:0;
+    list-style: none;
+    display: none;
+
+}
+.select-option{
+    width:100%;
+    display: block;
+    height:35px;
+    background-color: antiquewhite;
+    padding-top:10px;
+}
+.show-option{
+    display:block;
+}
+.title-coll{
+    width:100%;
+    height:4rem;
+    display: flex;
+    align-items: center;  
+    margin:0;
+    margin-top: 0.8rem; 
+}
+.tag{
+    width:4%;
+    height:1rem;
+    background-color: aliceblue;
+    font-size: 0.6rem;
+    text-align: center;
+    border-radius: 1rem;
+    margin-left: 0.5rem;
+
+}
+.title-text{
+    margin-left:0.8rem ;
+    font-size: 2.5rem;
+    background-color: blue;
+}
+.title-coll{
+    width:100%;
+    height:4rem;
+    display: flex;
+    align-items: baseline;  
+    margin:0;
+    margin-top: 0.8rem; 
+}
+.title-text-second{
+    font-size: 1.5rem;
+}
+.content{
+    margin-left:0.8rem ;
+}
+.expo, .content-title{
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.expo-sen, .content-text{
+    margin-top: 0.2rem;
+}
+footer{
+    width:100%;
+    height: 12.5rem;
+    background-color: black;
+}

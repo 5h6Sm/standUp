@@ -63,6 +63,7 @@ p{
     padding:0;
     list-style: none;
     display: none;
+
 }
 .select-option{
     width:100%;
@@ -74,102 +75,83 @@ p{
 .show-option{
     display:block;
 }
-
-.main-text{
-    padding-top:40px;
-    padding-bottom: 40px;
-    height:180px;
-    background-color: #fff;
-    margin-top: 20px;
-    justify-content: center;
-
+.title-coll{
+    width:100%;
+    height:4rem;
+    display: flex;
+    align-items: baseline;  
+    margin:0;
+    margin-top: 0.8rem; 
 }
-.main-text > .first-title{
-    font-weight: bold;
-    font-size: 3rem;
-
-}
-.main-text > .first-ctitle{
-    font-size: 1.3rem;
-    margin-bottom: 40px;
-}
-.main-text > .first-content{
-    font-size:1.5rem;
-}
-.main-text p{
-text-align: center;
+.tag{
+    width:4%;
+    height:1rem;
+    background-color: aliceblue;
+    font-size: 0.6rem;
+    text-align: center;
+    border-radius: 1rem;
+    margin-left: 0.5rem;
 
 }
-.main-content {
+.title-text{
+    margin-left:0.8rem ;
+    font-size: 2.5rem;
+    background-color: blue;
+}
+
+.words{
+    flex-direction: column;
+    justify-content: space-evenly;
+    width:100%;
+    height:500px;
     background-color: #555;
     display: flex;
-    justify-content: center;
+    margin-top: 0.8rem;
 }
-.wrap-content{
-    width:95%;
-    height: 550px;
-    background-color: #999;
-    margin-top: 20px;
+.word{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-evenly;
+}
+.title-word{
+    font-size: 1.5rem;
+    width:30%;
+    text-align: left;
+    margin-left: 2%;
+    height:2.5rem;
+    border: black solid 1px;
+    padding:0.55rem 0 0 0;
+    
 
 }
-.main-content > .wrap-content > .content{
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-
-
-
-}
-.main-content > .wrap-content > .content > img {
-    object-fit: cover;
-    width: 60%;
-    border-radius: 100%;
-    margin-left : 25%;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-.title{
-margin:0;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: bold;
-}
-.ctitle{
-    text-align: center;
-    font-size:.9rem;
-    margin-bottom: 20px;
-}
-.content-text{
+.explain{
+    width:60%;
+    height:2rem;
+    text-align: left;
+    padding:0.72rem 0 0 0;
+    border: black solid 1px;
     font-size: 1rem;
+}
+.next-word{
+    justify-content: center;
+    display: flex;
+}
+.next-word > ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.next-word > ul>li{
+    width:1.5rem;
+    height:1.5rem;
+    background-color: yellow;
     text-align: center;
-    margin-top:20px;
-    margin-right:0;
+    margin: 0;
+    padding: 0;
 }
-
-.time-line{
-    height:1000px ;
-    background-color: coral;
-    margin : 20px;
-}
-
-#year-1900{
-    margin-left:3%;
-    font-size: 4rem;
-}
-#year-1960{
-    margin-top:30rem;
-    margin-right:3%;
-    text-align: right;
-    font-size: 4rem;
-}
-
-.footer{
-    height:200px;
+footer{
+    width:100%;
+    height: 12.5rem;
     background-color: black;
 }
-
