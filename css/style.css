@@ -7,7 +7,10 @@ body{
     background-color: #81bef7;
     margin:0;
     padding: 0;
-    justify-content: center;;
+    justify-content: center;
+    background: url('https://i.ibb.co/Nm0q7Bx/background.png');
+    background-repeat: repeat;
+    background-size: contain;
 }
 
 p{
@@ -37,23 +40,19 @@ p{
     height:50px;
     border-radius: 20px;
 }
-
-.wrap-nav > .search-bar{
-    width:70%;
-    background-color: #555;
-}
 .search-bar{
     display: flex;
     align-items: center;
+    width:70%;
     justify-content: end;
-
+    background-color: yellowgreen;
 }
 .bx-search{
     font-size: 2rem;
     margin-right:1.2rem;
 }
 .select,.plus{
-    background-color: yellowgreen;
+    background-color: aliceblue;
     width:13%;
 }
 .select{
@@ -66,9 +65,9 @@ p{
     padding-top:15px;
 }
 .select-option:hover{
-    background-color:black;
     color:white;
     transition: 0.4s;
+    background-color: #000;
 }
 .select-ul{
     width:100%;
@@ -82,8 +81,9 @@ p{
     width:100%;
     display: block;
     height:35px;
-    background-color: antiquewhite;
     padding-top:10px;
+    background-color: #fff;
+
 }
 .show-option{
     display:block;
@@ -94,7 +94,6 @@ p{
     padding-top:40px;
     padding-bottom: 40px;
     height:180px;
-    background-color: #fff;
     margin-top: 20px;
     justify-content: center;
 
@@ -116,40 +115,33 @@ text-align: center;
 
 }
 .main-content {
-    background-color: #555;
     display: flex;
     justify-content: center;
 }
 .wrap-content{
     width:95%;
-    height: 550px;
-    background-color: #999;
-    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
 
 }
-.main-content > .wrap-content > .content{
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-
-
-
-}
-.main-content > .wrap-content > .content > img {
+.content > img {
     object-fit: cover;
     width: 60%;
     border-radius: 100%;
-    margin-left : 25%;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+
 }
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
 .title{
-margin:0;
+    margin:0;
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
@@ -168,10 +160,7 @@ margin:0;
 
 .time-line{
     height:1800px ;
-    background-color: coral;
     margin : 20px;
-    background: url('https://i.ibb.co/8rwCRG4/background.png');
-    background-repeat: no-repeat;
 }
 
 .year-1900, .year-2000{

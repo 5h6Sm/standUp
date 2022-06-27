@@ -7,9 +7,11 @@ body{
     background-color: #81bef7;
     margin:0;
     padding: 0;
-    justify-content: center;;
+    justify-content: center;
+    background: url('https://i.ibb.co/Nm0q7Bx/background.png');
+    background-repeat: repeat;
+    background-size: contain;
 }
-
 p{
     margin:0;
 }
