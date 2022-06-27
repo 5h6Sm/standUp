@@ -13,6 +13,7 @@
     div.tablet1{
         display: inline;
         float: left;
+        margin-top: 30px;
     }
     div.tablet2{
         display: inline;
@@ -25,6 +26,22 @@
         object-fit: cover;
         width: 80%;
         border-radius: 30px;
+    }
+    p.first-content{
+        text-align: center;
+        margin-left: 180px;
+        margin-right: 180px;
+    }
+    p.first-ctitle{
+        border-bottom: solid 2px black;
+        padding-bottom: 20px;
+    }
+    p.title{
+        font-size: 21px;
+    }
+    p.ctitle{
+        border-bottom: solid 2px black;
+        padding-bottom: 15px;
     }
 }
 
