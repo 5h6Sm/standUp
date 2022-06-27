@@ -90,6 +90,9 @@ p{
 .show-option{
     display:block;
 }
+.select-option > a{
+    display: block;
+}
 .title-coll{
     width:100%;
     height:4rem;

@@ -75,6 +75,9 @@ p{
     list-style: none;
     display: none;
 }
+.select-option > a{
+    display: block;
+}
 .select-option:hover{
     background-color:black;
     color:white;
