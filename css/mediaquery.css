@@ -5,7 +5,27 @@
 
 /* tablet */
 @media screen and (min-width:768px) and (max-width: 1023px) {
-	
+	div.content{
+        float: left;
+        width: 300px;
+        margin: 3px;
+    }
+    div.tablet1{
+        display: inline;
+        float: left;
+    }
+    div.tablet2{
+        display: inline;
+        float: left;
+    }
+    div.wrap-content{
+        display: inline; 
+    }
+    .content > img {
+        object-fit: cover;
+        width: 80%;
+        border-radius: 30px;
+    }
 }
 
 /* mobile */
