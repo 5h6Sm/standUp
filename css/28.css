@@ -12,6 +12,12 @@ body{
     background-repeat: repeat;
     background-size: contain;
 }
+.topground{
+    width:100%;
+    height:100px;
+    background: url('https://i.ibb.co/3Y6Mk0P/topground.png');
+    background-size: contain;
+}
 p{
     margin:0;
 }
@@ -28,7 +34,7 @@ p{
     margin-right: 0;
 }
 .wrap-nav{
-    margin-top: 60px;
+    margin-top: 5px;
     display: flex;
     width:100%;
     justify-content: space-evenly;
