@@ -9,6 +9,7 @@
         float: left;
         width: 30%;
         margin: 3px;
+        margin-top: 60px;
     }
     div.tablet1{
         display: inline;
@@ -47,5 +48,23 @@
 
 /* mobile */
 @media screen and (max-width:767px){ 
-	
+	p.first-title{
+        float: left;
+        position: relative;
+        margin-left: 3%;
+    }
+    p.first-ctitle{
+        float: left;
+        position: absolute;
+        margin-top: 10%;
+        margin-left: 8%;
+    }
+    p.first-content{
+        margin-top: 1%;
+        margin-left: 30%;
+        margin-right: 4%;
+    }
+    .main-text > .first-content{
+        font-size:1.2rem;
+    }
 }
