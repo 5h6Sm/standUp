@@ -41,14 +41,10 @@
         float: left;
         width: 30%;
         margin: 3px;
-<<<<<<< HEAD
         justify-content: normal;
         padding:10px 0 10px 0;
         background-color: rgb(255, 255, 255, 0.3);
         
-=======
-        margin-top: 60px;
->>>>>>> d30fd9adfbe67880e393b23fe8ffb3708db55978
     }
     div.tablet1{
         display: inline;
@@ -133,7 +129,6 @@
     
 }
 /* mobile */
-<<<<<<< HEAD
 @media screen and (max-width:767px){
     .plus{
         display: none;
@@ -288,26 +283,4 @@
         height: 100%;
     }
     
-=======
-@media screen and (max-width:767px){ 
-	p.first-title{
-        float: left;
-        position: relative;
-        margin-left: 3%;
-    }
-    p.first-ctitle{
-        float: left;
-        position: absolute;
-        margin-top: 10%;
-        margin-left: 8%;
-    }
-    p.first-content{
-        margin-top: 1%;
-        margin-left: 30%;
-        margin-right: 4%;
-    }
-    .main-text > .first-content{
-        font-size:1.2rem;
-    }
->>>>>>> d30fd9adfbe67880e393b23fe8ffb3708db55978
 }
