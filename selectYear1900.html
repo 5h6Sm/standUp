@@ -5,33 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>standUp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/selectYear.css">
+    <link rel="stylesheet" href="css/mediaquery_selectYear.css">
 </head>
 <body>
     <div class = "wrap-all">
         <div class="topground"></div>
         <div class = "wrap-nav">
             <div class = "select">
-                <div class = "touch">선택</div>
-                <ul class = "select-ul">
-                    <li class = "select-option">
-                        <a href="selectYear1900.html" target="_blank">1900~</a>
-                    </li>
-                    <li class = "select-option">
-                        <a href="selectYear1960.html" target="_blank">1960~</a>
-                    </li>
-                    <li class = "select-option">
-                        <a href="selectYear2000.html" target="_blank">2000~</a>
-                    </li>
-                </ul>
+                <div class = "touch">
+                    <p>선택</p>
+                </div>
+                <div class="menu" id="menu">
+                    <i class='bx bx-menu' ></i>
+                </div>
             </div>
+            <ul class = "select-ul" id = "select-ul">
+                <li class = "select-option">
+                    <a href="selectYear1900.html" target="_blank">1900</a>
+                </li>
+                <li class = "select-option">
+                    <a href="selectYear1960.html" target="_blank">1960</a>
+                </li>
+                <li class = "select-option">
+                    <a href="selectYear2000.html" target="_blank">2000</a>
+                </li>
+                <li class = "media-option select-option">
+                    <a href="index.html" target="_blank">홈</a>
+                </li>
+            </ul>
             <div class = "search-bar">
                 <i class='bx bx-search'></i>
             </div>
             <div class = "plus">
-                <div class="more-word">더보기</div>
-            </div>
+                <a href="more.html" target="_blank">
+                    <div class="more-word">더 알기</div>
+                </a>  
+                </div>
+                
         </div>
         <div class="title-coll">
             <div class="title-text">1900</div>
@@ -45,26 +60,50 @@
                     <div class="innerContent-text-ex">1919년 2월 8일 도쿄[東京] 유학생들이 발표한 독립선언</div>
                 </div>
                 <div class="innerContent">
-                    <img src="https://i.ibb.co/bFXxKPQ/2-8-main.jpg" alt="2-8-main" border="0">
-                    <div class="innerContent-text">2.8 독립선언</div>
-                    <div class="innerContent-text-ex">1919년 2월 8일 도쿄[東京] 유학생들이 발표한 독립선언</div>
+                    <img src="https://i.ibb.co/3y4r2Ph/3-1.jpg" alt="3-1" border="0">
+                    <div class="innerContent-text">3.1 운동</div> 
+                    <div class="innerContent-text-ex">한일 병합
+                        조약의 무효와
+                        한국의 독립을 선언하고
+                        비폭력 만세 운동을 
+                        시작한 사건이다.</div>
                 </div>
                 <div class="innerContent">
-                    <img src="https://i.ibb.co/bFXxKPQ/2-8-main.jpg" alt="2-8-main" border="0">
-                    <div class="innerContent-text">2.8 독립선언</div>
-                    <div class="innerContent-text-ex">1919년 2월 8일 도쿄[東京] 유학생들이 발표한 독립선언</div>
+                    <img src="https://i.ibb.co/NKCdZxK/6-10.jpg" alt="6-10" border="0">
+                    <div class="innerContent-text">6.10 만세운동</div>
+                    <div class="innerContent-text-ex">학생을 중심으로 하여
+                        일어난 3·1 운동을 잇는 
+                       전국적·전민중적인
+                       항일운동이다.</div>
                 </div>
                 <div class="innerContent">
-                    <img src="https://i.ibb.co/bFXxKPQ/2-8-main.jpg" alt="2-8-main" border="0">
-                    <div class="innerContent-text">2.8 독립선언</div>
-                    <div class="innerContent-text-ex">1919년 2월 8일 도쿄[東京] 유학생들이 발표한 독립선언</div>
+                    <img src="https://i.ibb.co/4tQ7khQ/image.jpg" alt="image" border="0">
+                    <div class="innerContent-text">광주학생운동</div>
+                    <div class="innerContent-text-ex">광주 지역의 학생이
+                        주도하여 일으킨 
+                        항일 독립만세 운동으로,
+                        민족 독립 만세 운동으로
+                        발전하였다.</div>
                 </div>
             </div>
         </main>
-        <footer>
 
-        </footer>
     </div>
+    <footer> 
+        <p id = "up">standUp<br>일어서라 그대여</p> 
+        <div>
+            <span class = "left">
+                <p>임수민</p>
+                <p>w2124@e-mirim.hs.kr</p> 
+                <p>Copyright©2022.24092410.free</p>
+            </span>
+            <span class = "right">
+                <p>최가을</p> 
+               <p>w2110@e-mirim.hs.kr</p> 
+               <p>미림여자정보과학고등학교</p>
+            </span>
+        </div>
+    </footer>
     <script src="js/selectYear.js"></script>
 </body>
 </html>

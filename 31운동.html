@@ -5,39 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>standUp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/28.css">
+    <link rel="stylesheet" href="css/mediaquery_28.css">
 </head>
 <body>
     <div class = "wrap-all">
         <div class="topground"></div>
         <div class = "wrap-nav">
             <div class = "select">
-                <div class = "touch">선택</div>
-                <ul class = "select-ul">
-                    <li class = "select-option">
-                        <a href="selectYear1900.html" target="_blank">1900~</a>
-                    </li>
-                    <li class = "select-option">
-                        <a href="selectYear1960.html" target="_blank">1960~</a>
-                    </li>
-                    <li class = "select-option">
-                        <a href="selectYear2000.html" target="_blank">2000~</a>
-                    </li>
-                </ul>
+                <div class = "touch">
+                    <p>선택</p>
+                </div>
+                <div class="menu" id="menu">
+                    <i class='bx bx-menu' ></i>
+                </div>
             </div>
+            <ul class = "select-ul" id = "select-ul">
+                <li class = "select-option">
+                    <a href="selectYear1900.html" target="_blank">1900</a>
+                </li>
+                <li class = "select-option">
+                    <a href="selectYear1960.html" target="_blank">1960</a>
+                </li>
+                <li class = "select-option">
+                    <a href="selectYear2000.html" target="_blank">2000</a>
+                </li>
+                <li class = "media-option select-option">
+                    <a href="index.html" target="_blank">홈</a>
+                </li>
+            </ul>
             <div class = "search-bar">
                  <i class='bx bx-search'></i>
             </div>
             <div class = "plus">
-                <div class="more-word">더보기</div>
+                <a href="more.html" target="_blank">
+                    <div class="more-word">더 알기</div>
+                </a>  
             </div>
         </div>
         <main>
             <div class="title-coll">
                 <div class="title-text">3.1 운동</div>
                 <div class="title-text-second">(三一運動)</div>
-                <div class="tag">19</div>
+                <div class="tag">1900</div>
             </div>
             <div class="content">
                 <div class="text">
@@ -61,19 +75,27 @@
                     </div>
                 </div>
                 <div class="content-img">
-                   <img src="https://i.ibb.co/QD8pNqB/6-1.jpg" alt="6-1" border="0">
+                    <img src="https://i.ibb.co/HqrKFTC/31.jpg" alt="31" border="0">
                 </div>
-            </div>
-
-            
-         
-
-
+            </div>        
         </main>
-        <footer>
 
-        </footer>
     </div>
+    <footer> 
+        <p id = "up">standUp<br>일어서라 그대여</p> 
+        <div>
+            <span class = "left">
+                <p>임수민</p>
+                <p>w2124@e-mirim.hs.kr</p> 
+                <p>Copyright©2022.24092410.free</p>
+            </span>
+            <span class = "right">
+                <p>최가을</p> 
+               <p>w2110@e-mirim.hs.kr</p> 
+               <p>미림여자정보과학고등학교</p>
+            </span>
+        </div>
+    </footer>
     <script src="js/28.js"></script>
 </body>
 </html>

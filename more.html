@@ -5,33 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>standUp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/more.css">
+    <link rel="stylesheet" href="css/mediaquery_more.css">
+
 </head>
 <body>
     <div class = "wrap-all">
         <div class="topground"></div>
         <div class = "wrap-nav">
             <div class = "select">
-                <div class = "touch">선택</div>
-                <ul class = "select-ul">
-                    <li class = "select-option">
-                        <a href="selectYear1900.html" target="_blank">1900~</a>
-                    </li>
-                    <li class = "select-option">
-                        <a href="selectYear1960.html" target="_blank">1960~</a>
-                    </li>
-                    <li class = "select-option">
-                        <a href="selectYear2000.html" target="_blank">2000~</a>
-                    </li>
-                </ul>
+                <div class = "touch">
+                    <p>선택</p>
+                </div>
+                <div class="menu" id="menu">
+                    <i class='bx bx-menu' ></i>
+                </div>
             </div>
+            <ul class = "select-ul" id = "select-ul">
+                <li class = "select-option">
+                    <a href="selectYear1900.html" target="_blank">1900</a>
+                </li>
+                <li class = "select-option">
+                    <a href="selectYear1960.html" target="_blank">1960</a>
+                </li>
+                <li class = "select-option">
+                    <a href="selectYear2000.html" target="_blank">2000</a>
+                </li>
+                <li class = "media-option select-option">
+                    <a href="index.html" target="_blank">홈</a>
+                </li>
+            </ul>
             <div class = "search-bar">
                 <i class='bx bx-search'></i>
             </div>
             <div class = "plus">
-                <div class="more-word">더보기</div>
-            </div>
+                <a href="index.html" target="_blank">
+                    <div class="more-word">홈</div>
+                </a>  
+             </div>
         </div>
         <main>
             <div class="title-coll">
@@ -45,42 +60,59 @@
                     <div class="explain">일본 동경에서 조직되었던 유학생 단체</div>
                 </div>
                 <div class="word">
-                    <div class="title-word">북성회(北星會)</div>
-                    <div class="explain">일본 동경에서 조직되었던 유학생 단체</div>
+                    <div class="title-word">경성학생연맹(京城學生聯盟)</div>
+                    <div class="explain">사회주의계인 서울파의 후원으로 조직된 조직되었던 학생 단체  </div>
                 </div>
                 <div class="word">
-                    <div class="title-word">북성회(北星會)</div>
-                    <div class="explain">일본 동경에서 조직되었던 유학생 단체</div>
+                    <div class="title-word">공학회(共學會)</div>
+                    <div class="explain">일부 민족주의와 사회주의 성향의 학생들이 모여 조직되었던 항일학생운동단체</div>
                 </div>
                 <div class="word">
-                    <div class="title-word">북성회(北星會)</div>
-                    <div class="explain">일본 동경에서 조직되었던 유학생 단체</div>
+                    <div class="title-word">서울학생구락부(─學生俱樂部)</div>
+                    <div class="explain">사회주의계열 학생운동단체인 조선공학회(朝鮮共學會) 주류가
+                        북풍회(北風會)의 후원으로 설립하였던 학생단체</div>
                 </div>
                 <div class="word">
-                    <div class="title-word">북성회(北星會)</div>
-                    <div class="explain">일본 동경에서 조직되었던 유학생 단체</div>
+                    <div class="title-word">조선공학회(朝鮮共學會)</div>
+                    <div class="explain">사회교육의 연구와 민중본위의 교육을 목적으로 하는 조선공학회가
+                        북풍회 계통의 학생들이 주동하여 창립
+                        서울에서 조직되었던 사회주의계통의 학생단체</div>
                 </div>
                 <div class="word">
-                    <div class="title-word">북성회(北星會)</div>
-                    <div class="explain">일본 동경에서 조직되었던 유학생 단체</div>
+                    <div class="title-word">조선학생회(朝鮮學生會)</div>
+                    <div class="explain">창립 당시부터 지도급 학생층의 지지와 참여,
+                        여러 후원을 받으면서 공인된 민족세력의 일익을 담당한 학생 단체</div>
                 </div>
             </div>
             <div class="next-word">
                 <ul>
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>4</li>
-                    <li>5</li>
+                    <a href="#"><li>1</li></a>
+                    <a href="#"><li>2</li></a>
+                    <a href="#"><li>3</li></a>
+                    <a href="#"><li>4</li></a>
+                    <a href="#"><li>5</li></a>
                 </ul>
             </div>
 
-            <footer>
 
-            </footer>
         </main>
         
     </div>
+    <footer> 
+        <p id = "up">standUp<br>일어서라 그대여</p> 
+        <div>
+            <span class = "left">
+                <p>임수민</p>
+                <p>w2124@e-mirim.hs.kr</p> 
+                <p>Copyright©2022.24092410.free</p>
+            </span>
+            <span class = "right">
+                <p>최가을</p> 
+               <p>w2110@e-mirim.hs.kr</p> 
+               <p>미림여자정보과학고등학교</p>
+            </span>
+        </div>
+    </footer>
     <script src="js/more.js"></script>
 </body>
 </html>

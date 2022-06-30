@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+/* desktop */
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+@media screen and (min-width:1024px) {
+
+}
+
+/* tablet */
+@media screen and (min-width:768px) and (max-width: 1023px) {
+	.title-word{
+        text-align: left;
+    }
+    .innerContent-text-ex{
+        margin-right: 1rem;
+        text-align: right;
+        height:fit-content;
+    }
+    
+}
+
+/* mobile */
+@media screen and (max-width:767px){ 
+    .media-option{
+        display:block;
+        width: 100%;
+        height: 100%;
+    }
+    .words{
+        width:100%;
+    }
+    .contnet-coll{
+        width:100%;
+        justify-content: center;
+    }
+    .innerContent > img {
+        display: none;
+    }
+    .innerContent{
+        display: flex;
+        flex-direction: column;
+        width:90%;
+        align-items: normal;
+        height:fit-content;
+
+    }
+    .innerContent-text{
+        width: 100%;
+        height:fit-content; 
+    }
+    .innerContent-text-ex{
+        margin-top: 0.5rem;
+        width: 95%;
+        height: fit-content;
+        text-align: left;
+    }
+    .plus{
+        display: none;
+    }
+    .menu{
+        width: 100%;
+        visibility: visible;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+    }   
+    .select-ul{
+        left: 5.5%;
+    }
+    .show-option{
+        height:220px;
+    }
+    .select{
+        display: flex;
+        align-items: center;
+    }
+    .touch{
+        display: none;
+    }
+    .touch > p{
+        display: none;
+    }
+
+
+}
